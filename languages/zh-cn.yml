@@ -10,8 +10,9 @@ menu:
   about: 关于
 
 footer:
+  author: "由 %s 制作"
   powered: "由 %s 强力驱动"
-  theme: 主题
+  licensed: "采用 %s 协议"
 
 posts:
   prev: 上一页

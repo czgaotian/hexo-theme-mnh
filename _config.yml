@@ -3,7 +3,7 @@
 # ===========================================
 
 # Site creation time
-since: 2012
+since: 2023
 
 # Custom your favicon.ico in `site/source`
 favicon: /favicon.ico
@@ -17,7 +17,7 @@ rss: default
 # Menu Settings
 # ===========================================
 menu:
-  Unsplash: https://unsplash.com/@henryhh
+  Home: /
   About: /about
 
 # ===========================================
@@ -64,3 +64,22 @@ disqus_shortname:
 # Version
 # ===========================================
 version: 1.1
+
+# ===========================================
+# Language
+# ===========================================
+# language: en | zh-CN | zh-TW
+language: en
+
+# ===========================================
+# Footer Settings
+# ===========================================
+license:
+  -name: CC-BY-NC-SA 4.0
+  -link: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+archive_generator:
+  per_page: 0
+  yearly: false
+  monthly: false
+  daily: false
