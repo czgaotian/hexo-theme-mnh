@@ -1,5 +1,5 @@
-{% if config.duoshuo_shortname and not config.disqus_shortname %}
-  {% set duoshuo_shortname = config.duoshuo_shortname %}
+{% if theme.duoshuo_shortname and not theme.disqus_shortname %}
+  {% set duoshuo_shortname = theme.duoshuo_shortname %}
 
   <script type="text/javascript">
     var duoshuoQuery = {short_name:"{{duoshuo_shortname}}"};

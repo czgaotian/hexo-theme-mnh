@@ -61,6 +61,12 @@ google_analytics:
 duoshuo_shortname:
 # Disqus
 disqus_shortname:
+# utterances
+utterances:
+  enable: true
+  repo: meannoharm/meannoharm.github.io
+  issueTerm: pathname
+  theme: github-light
 
 
 # ===========================================
