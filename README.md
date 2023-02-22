@@ -1,6 +1,7 @@
 # hexo-theme-mnh
 
 修改自 [hexo-theme-polarbearsimple](https://github.com/henryhuang/hexo-theme-polarbearsimple)
+
 看了很多主题，都没有满意的，所以选了一个比较好的底子，自己修改了
 
 [在线预览 Demo](https://pua.al)
