@@ -13,6 +13,8 @@ favicon: /favicon.ico
 # default: use `atom.xml`, generator for `hexo-generator-feed`
 rss: default
 
+language: en
+
 # ===========================================
 # Menu Settings
 # ===========================================
