@@ -20,7 +20,10 @@
         color: $dark-gray;
     }
 
-    .footer-author{
-        margin: 0 4px;
+    .footer-item{
+        margin-right: 4px;
+        &:last-child{
+            margin-right: 0;
+        }
     }
 }

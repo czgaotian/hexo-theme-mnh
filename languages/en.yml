@@ -12,7 +12,7 @@ menu:
 footer:
   author: "developed with ❤️ by %s."
   powered: "Powered by %s."
-  licensed: "Licensed under %s."
+  license: "Licensed under %s."
 
 posts:
   prev: Prev
