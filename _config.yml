@@ -20,6 +20,7 @@ language: en
 # ===========================================
 menu:
   Home: /
+  Archive: /archives
   About: /about
 
 # ===========================================
@@ -34,9 +35,9 @@ widget:
   Tags: true
   Categories: false
 
-widget_custom:
-    title:
-    content:
+# widget_custom:
+#     title:
+#     content:
 
 # ===========================================
 # Theme Settings

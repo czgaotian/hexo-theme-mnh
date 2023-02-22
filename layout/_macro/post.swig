@@ -10,14 +10,14 @@
       </h1>
 
       <time class="post-time">
-          {{ full_date(post.date, 'MMM D YYYY') }}
+          {{ full_date(post.date, 'MMM DD YYYY') }}
       </time>
     </header>
 
 
 
     {% if is_home() %}
-        <div class="post-excerpt">
+        <div class="post-excerpt post-content">
             {% set excerpt = "" %}
             {% if post.description %}
               {% set excerpt = post.description %}
@@ -35,13 +35,15 @@
             </div>
           {% endif %}
 
-    {% if post.tags and post.tags.length and not is_home() %}
+    {% if not is_home() %}
       <footer class="post-footer">
-        <div class="post-tags">
-          {% for tag in post.tags %}
-            <a href="{{ url_for(tag.path) }}">{{ tag.name }}</a>
-          {% endfor %}
-        </div>
+		{% if post.tags and post.tags.length %}
+		<div class="post-tags">
+		  {% for tag in post.tags %}
+			<a href="{{ url_for(tag.path) }}">{{ tag.name }}</a>
+		  {% endfor %}
+		</div>
+		{% endif %}
 
         {# Post Pagination #}
         {% include "../_partial/pagination.swig" %}
