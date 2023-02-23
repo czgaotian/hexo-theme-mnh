@@ -42,7 +42,7 @@ npm install --save hexo-algoliasearch
 
 ```yaml
 algolia:
-  appId: "<APP_ID>"
+  applicationID: "<APP_ID>"
   apiKey: "<API_KEY>"
   adminApiKey: "<ADMIN_API_KEY>"
   chunkSize: 5000

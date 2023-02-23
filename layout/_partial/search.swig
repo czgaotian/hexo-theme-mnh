@@ -1,11 +1,11 @@
 {% if config.algolia %}
-    <div id="search-container" class="search-container">
+<div id="search-container" class="search-container-mask">
+    <div class="search-container">
         <input type="hidden" id="algolia_index" value="{{ config.algolia.indexName }}"/>
-        <input type="hidden" id="algolia_app_id" value="{{ config.algolia.appId }}"/>
+        <input type="hidden" id="algolia_app_id" value="{{ config.algolia.applicationID }}"/>
         <input type="hidden" id="algolia_token" value="{{ config.algolia.apiKey }}"/>
         <div class="section">
             <div class="container">
-
                 <div class="panel">
                     <div class="panel-heading">
                         {{ __('site.search') }}
@@ -17,16 +17,14 @@
                         <div id="searchContainer" class="control has-icons-left">
                             <input id="searchField" class="input" type="text" placeholder="{{ __('site.searchPlaceHolder') }}">
                             <span class="icon is-small is-left">
-            <i class="fas fa-search" aria-hidden="true"></i>
-          </span>
+                                <i class="fas fa-search" aria-hidden="true"></i>
+                            </span>
                         </div>
                     </div>
-                    <div id="result">
-
-                    </div>
+                    <div id="result"></div>
                 </div>
-
             </div>
         </div>
     </div>
+</div>
 {% endif %}

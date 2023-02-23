@@ -23,13 +23,14 @@ var buildItem = function (itemRaw) {
   return '<div class="panel-block">' +
       '<a href="' + itemRaw.permalink.value + '">' +
       '<article class="media">' +
-      '<figure class="media-left">' +
-      '<p class="image is-64x64">' +
-      '<img src="' + (itemRaw.cover && itemRaw.cover.value
-          ? itemRaw.cover.value
-          : "http://githubimg.wxio.club/h.png") + '">' +
-      '</p>' +
-      '</figure>' +
+      // '<figure class="media-left">' +
+      // TODO: 寻找图床后再加上
+      // '<p class="image is-64x64">' +
+      // '<img src="' + (itemRaw.cover && itemRaw.cover.value
+      //     ? itemRaw.cover.value
+      //     : "http://githubimg.wxio.club/h.png") + '">' +
+      // '</p>' +
+      // '</figure>' +
       '<div class="media-content">' +
       '<div class="content">' +
       '<strong>' + itemRaw.title.value + '</strong>' +
@@ -78,16 +79,15 @@ var search = function (query) {
 };
 
 $(function () {
-
   $('#close').on('click', function (e) {
     e.preventDefault();
-    $('#search-container').removeClass('search-container-active');
+    $('#search-container').removeClass('active');
     $('#searchField').off('change paste keyup');
   });
 
   $('#search').on('click touchstart', function (e) {
     e.preventDefault();
-    $('#search-container').addClass('search-container-active');
+    $('#search-container').addClass('active');
     $('#searchField').focus();
     var query = '';
     search(query);
@@ -99,6 +99,13 @@ $(function () {
         search(query);
       }
     });
+  });
+
+  // 单击蒙层
+  $('#search-container').on('click', function (e) {
+    if (e.target.id === 'search-container') {
+      $('#search-container').removeClass('active');
+    }
   });
 
 });

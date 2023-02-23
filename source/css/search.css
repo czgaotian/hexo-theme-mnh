@@ -6405,6 +6405,7 @@ fieldset[disabled] .search-container .file-name, fieldset[disabled] .search-cont
   display: flex;
   justify-content: flex-start;
   padding: 0.5em 0.75em;
+  background-color: #fff;
 }
 .search-container .panel-block input[type=checkbox] {
   margin-right: 0.75em;
