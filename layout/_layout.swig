@@ -31,37 +31,34 @@
   
   <script type="application/ld+json">
   {
-  "@context": "http://www.schema.org",
-  "@type": "Person",
-  "@id": "https://huangyijie.com/about/",
-  "name": "黄奕杰",
-  "alternateName": "Henry Huang",
-  "nationality": "中国",
-  "birthPlace" : {
-    "@type": "Place",
+    "@context": "http://www.schema.org",
+    "@type": "Recipe",
+    "@id": "https://pua.al/about/",
+    "name": "pua.al",
+    "author": {
+      "@type": "Person",
+      "name": "Stan Gao"
+    }
+    "nationality": "中国",
+    "birthPlace" : {
+      "@type": "Place",
       "address": {
         "@type": "PostalAddress",
-      "addressLocality": "汕头市",
-      "addressRegion": "广东省",
-          "addressCountry": "中国"
-    }
-  },
-  "gender": "Male",
-  "Description": "Software Engineer",
-  "disambiguatingDescription": "Full stack software engineer, focus on Java and JavaScript.",
-  "jobTitle": "Software Engineer",
-  "url": "https://huangyijie.com",
-  "image": "https://s.gravatar.com/avatar/4e0e61fdf1b2bcfb4ee31da27601fe6b?s=512&r=g",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "深圳市",
-    "addressRegion": "广东省",
-    "addressCountry": "中国"
-  },
-  "sameAs": [
-    "http://weibo.com/626242034",
-    "https://github.com/henryhuang",
-    "https://unsplash.com/@henryhh"
+        "addressRegion": "上海",
+        "addressCountry": "中国"
+      }
+    },
+    "gender": "Male",
+    "Description": "Software Engineer",
+    "jobTitle": "Software Engineer",
+    "url": "https://pua.al",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "上海",
+      "addressCountry": "中国"
+    },
+    "sameAs": [
+      "https://github.com/meannoharm",
     ]
   }
   </script>
