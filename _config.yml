@@ -33,7 +33,7 @@ menu:
 #   content: Add your html code in here. Example: <p>Hello, I am Frost</p>
 widget:
   Tags: true
-  Categories: false
+  Categories: true
 
 # widget_custom:
 #     title:
