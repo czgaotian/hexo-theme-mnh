@@ -8,19 +8,19 @@ Changed From [hexo-theme-polarbearsimple](https://github.com/henryhuang/hexo-the
 
 ## Installation
 
-install plugin `hexo-renderer-scss` `hexo-renderer-swig` `hexo-generator-archive` and `hexo-algoliasearch`
+1.Install Hexo plugin `hexo-renderer-scss` `hexo-renderer-swig` `hexo-generator-archive` and `hexo-algoliasearch`
 
   ```bash
   npm install hexo-renderer-scss hexo-renderer-swig hexo-generator-archive hexo-algoliasearch --save
   ```
 
-Download the theme to your Hexo theme folder
+2.Download the theme to your Hexo theme folder
 
   ```bash
   git clone https://github.com/meannoharm/hexo-theme-mnh themes/mnh
   ```
 
-Modify `your_site/_config.yml`
+3.Modify `your_site/_config.yml`
 
 ```yaml
 # Extensions
