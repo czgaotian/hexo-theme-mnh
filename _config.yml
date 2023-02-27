@@ -54,8 +54,13 @@ theme:
 
 # Baidu Analytics
 baidu_analytics:
+  enable: true
+  key: ef3d4cb0b64c69ddba44dfcb86c2c6d4
 # Google Analytics
-google_analytics:
+# use google analytics 4
+google_analytics: 
+  enable: true
+  gtag: G-1J53LZ1GGM
 
 # Duoshuo
 duoshuo_shortname:
