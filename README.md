@@ -2,7 +2,7 @@
 
 [中文文档](README_zh.md)
 
-Changed From [hexo-theme-polarbearsimple](https://github.com/henryhuang/hexo-theme-polarbearsimple)
+A simple theme for Hexo. Based on [hexo-theme-polarbearsimple](https://github.com/henryhuang/hexo-theme-polarbearsimple)
 
 [Online Demo](https://pua.al)
 
