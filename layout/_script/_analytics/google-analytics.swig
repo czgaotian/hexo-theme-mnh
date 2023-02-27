@@ -1,10 +1,9 @@
-{% if config.google_analytics and config.google_analytics.enable %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ config.google_analytics.gtag }}"></script>
+{% if theme.google_analytics and theme.google_analytics.enable %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ theme.google_analytics.gtag }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
-    gtag('config', '{{ config.google_analytics.gtag }}');
+    gtag('config', '{{ theme.google_analytics.gtag }}');
   </script>
 {% endif %}

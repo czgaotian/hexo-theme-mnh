@@ -58,7 +58,7 @@ baidu_analytics:
   key: ef3d4cb0b64c69ddba44dfcb86c2c6d4
 # Google Analytics
 # use google analytics 4
-google_analytics: 
+google_analytics:
   enable: true
   gtag: G-1J53LZ1GGM
 
