@@ -1,9 +1,10 @@
 # hexo-theme-mnh
 
+[中文文档](README_zh.md)
+
 Changed From [hexo-theme-polarbearsimple](https://github.com/henryhuang/hexo-theme-polarbearsimple)
 
 [Online Demo](https://pua.al)
-[中文文档](README_zh.md)
 
 ## Installation
 
