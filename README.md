@@ -1,19 +1,24 @@
 # hexo-theme-mnh
 
-修改自 [hexo-theme-polarbearsimple](https://github.com/henryhuang/hexo-theme-polarbearsimple)
+Changed From [hexo-theme-polarbearsimple](https://github.com/henryhuang/hexo-theme-polarbearsimple)
 
-看了很多主题，都没有满意的，所以选了一个比较好的底子，自己修改了
+[Online Demo](https://pua.al)
 
-[在线预览 Demo](https://pua.al)
+## Installation
 
-## 安装使用（Installation）
+install plugin `hexo-renderer-scss` `hexo-renderer-swig` `hexo-generator-archive` and `hexo-algoliasearch`
 
-```bash
-npm install hexo-renderer-scss --save
-git clone https://github.com/meannoharm/hexo-theme-mnh themes/mnh
-```
+  ```bash
+  npm install hexo-renderer-scss hexo-renderer-swig hexo-generator-archive hexo-algoliasearch --save
+  ```
 
-修改（Change） `yoursite/config.yml`
+Download the theme to your Hexo theme folder
+
+  ```bash
+  git clone https://github.com/meannoharm/hexo-theme-mnh themes/mnh
+  ```
+
+Modify `your_site/_config.yml`
 
 ```yaml
 # Extensions
@@ -21,26 +26,16 @@ git clone https://github.com/meannoharm/hexo-theme-mnh themes/mnh
 ## Themes: http://hexo.io/themes/
 theme: mnh
 
-# 在归档页面显示所有文章 （Show all articles at archive page.）
-# 需要安装(Need to install) hexo-generator-archive 插件支持
+# Show all articles at archive page.
+# Need to install hexo-generator-archive
 archive_generator:
     per_page: 0
     yearly: false
     monthly: false
     daily: false
-```
 
-## 添加 Algolia搜索
-
-添加 hexo-algoliasearch 插件
-
-```bash
-npm install --save hexo-algoliasearch
-```
-
-在网站的 `yoursite/_config.yml` 里配置：
-
-```yaml
+# Global search based on Algolia https://www.algolia.com/
+# Need to install and config hexo-algoliasearch
 algolia:
   applicationID: "<APP_ID>"
   apiKey: "<API_KEY>"
@@ -56,4 +51,63 @@ algolia:
   - tags
   - categories
   - title
+```
+
+## Theme Config
+
+Modify `your_site/themes/mnh/_config.yml`
+
+### Widget Function
+
+```yaml
+# widget function
+# false: disable
+# widget_custom: custom your widget
+#   title: your widget title
+#   content: Add your html code in here. Example: <p>testing...</p>
+widget:
+  Tags: true
+  Categories: false
+  Custom: false
+
+widget_custom:
+    title: Test
+    content: <p>testing...</p>
+```
+
+### Site Analytics
+
+```yaml
+# Baidu Analytics
+baidu_analytics:
+  enable: true
+  key: "[BAIDU ANALYTICS KEY]"
+# Google Analytics
+# use google analytics 4
+google_analytics:
+  enable: true
+  gtag: "[GOOGLE ANALYTICS GTAG]"
+```
+
+### Comment Function
+
+```yaml
+# Duoshuo
+duoshuo_shortname:
+# Disqus
+disqus_shortname:
+# utterances
+utterances:
+  enable: true
+  repo: "[ENTER REPO HERE]"
+  issueTerm: pathname
+  theme: github-light
+```
+
+### License Config
+
+```yaml
+license:
+  name: CC-BY-NC-SA 4.0
+  link: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ```
