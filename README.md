@@ -4,6 +4,8 @@
 
 A simple theme for Hexo. Based on [hexo-theme-polarbearsimple](https://github.com/henryhuang/hexo-theme-polarbearsimple)
 
+!["首页图片"](mnh.png)
+
 [Online Demo](https://pua.al)
 
 ## Installation
@@ -11,7 +13,7 @@ A simple theme for Hexo. Based on [hexo-theme-polarbearsimple](https://github.co
 1.Install Hexo plugin `hexo-renderer-scss` `hexo-renderer-swig` `hexo-generator-archive` and `hexo-algoliasearch`
 
   ```bash
-  npm install hexo-renderer-scss hexo-renderer-swig hexo-generator-archive hexo-algoliasearch --save
+  npm install hexo-renderer-scss@github:meannoharm/hexo-renderer-scss hexo-renderer-swig hexo-generator-archive hexo-algoliasearch --save
   ```
 
 2.Download the theme to your Hexo theme folder
