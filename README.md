@@ -10,10 +10,18 @@ A simple theme for Hexo. Based on [hexo-theme-polarbearsimple](https://github.co
 
 ## Installation
 
-1.Install Hexo plugin `hexo-renderer-scss` `hexo-renderer-swig` `hexo-generator-archive` and `hexo-algoliasearch`
+1.Install Hexo plugin `hexo-renderer-sass` `hexo-renderer-swig` `hexo-generator-archive` and `hexo-algoliasearch`
 
   ```bash
-  npm install hexo-renderer-scss@github:meannoharm/hexo-renderer-scss hexo-renderer-swig hexo-generator-archive hexo-algoliasearch --save
+  npm install hexo-renderer-scss@github:meannoharm/hexo-renderer-sass hexo-renderer-swig hexo-generator-archive hexo-algoliasearch --save
+  ```
+  
+  if use `nodejs` version > 12, `hexo-renderer-sass` may installed incorrect, see [Issue](https://github.com/knksmith57/hexo-renderer-sass/issues/43) and [Pull request](https://github.com/knksmith57/hexo-renderer-sass/pull/46).
+
+  You can run this command to install `hexo-renderer-sass` from [@kmuncie](https://github.com/kmuncie)
+
+  ```bash
+  npm install --save https://github.com/kmuncie/hexo-renderer-sass
   ```
 
 2.Download the theme to your Hexo theme folder
