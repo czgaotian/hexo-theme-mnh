@@ -1,24 +1,28 @@
 {
-  "name": "hexo-theme-polarbear",
+  "name": "hexo-theme-mnh",
   "version": "1.1",
-  "description": "A light theme base on Even, inspired by Giuem",
+  "description": "A simple, clean Hexo theme.",
   "main": "index.js",
   "keywords": [
+    "hexo",
+    "hexo-theme",
+    "blog",
     "responsive",
     "widget",
+    "clean",
     "simple",
     "light"
   ],
-  "author": "Frost Fan",
+  "author": "meannoharm",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahonn/hexo-theme-polarbear.git"
+    "url": "git+https://github.com/meannoharm/hexo-theme-mnh.git"
   },
   "bugs": {
-    "url": "https://github.com/ahonn/hexo-theme-polarbear/issues"
+    "url": "https://github.com/meannoharm/hexo-theme-mnh/issues"
   },
-  "homepage": "https://github.com/ahonn/hexo-theme-polarbear#readme",
+  "homepage": "https://github.com/meannoharm/hexo-theme-mnh#readme",
   "devDependencies": {
     "eslint": "^3.12.0"
   }
