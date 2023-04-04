@@ -6,24 +6,14 @@
   margin-top: $footer-margin-top;
 }
 
-#colophon {
+#mnh-footer {
 	width: 90%;
-	margin: 30px auto 0;
+	margin: 32px auto 0;
 	padding: 20px 0;
 	border-top: 1px solid #e1e1e1;
     color: $dark-gray;
-	font-size: 14px;
+	font-size: 12px;
     max-width: $global-body-width;
 	display: block;
     overflow: hidden;
-    a {
-        color: $dark-gray;
-    }
-
-    .footer-item{
-        margin-right: 4px;
-        &:last-child{
-            margin-right: 0;
-        }
-    }
 }

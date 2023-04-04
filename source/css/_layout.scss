@@ -1,4 +1,4 @@
-#content {
+#mnh-content {
     margin: $global-content-margin;
     width: 90%;
 	max-width: $global-body-width;
@@ -24,4 +24,9 @@
   #primary.home {
       width: 100%;
   }
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
 }

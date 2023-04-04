@@ -6,15 +6,15 @@
   </head>
 
   <body>
-    <div id="page">
-      <header id="masthead">
+    <div id="main-container">
+      <header id="mnh-header">
         {%- include '_partial/header.swig' %}
       </header>
-      <div id="content">
+      <div id="mnh-content">
         {% block content %}{% endblock %}
       </div>
 
-      <footer id="colophon">
+      <footer id="mnh-footer">
         {%- include '_partial/footer.swig' %}
       </footer>
 
