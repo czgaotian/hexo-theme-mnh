@@ -6,7 +6,7 @@ A simple theme for Hexo. Based on [hexo-theme-polarbearsimple](https://github.co
 
 !["首页图片"](mnh.png)
 
-[Online Demo](https://pua.al)
+[Online Demo](https://gao.tn)
 
 ## Installation
 
