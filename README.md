@@ -8,6 +8,10 @@ A simple theme for Hexo. Based on [hexo-theme-polarbearsimple](https://github.co
 
 [Online Demo](https://gao.tn)
 
+## TODO
+
+1. Search component style update
+
 ## Installation
 
 1.Install Hexo plugin `hexo-renderer-sass` `hexo-renderer-swig` `hexo-generator-archive` and `hexo-algoliasearch`

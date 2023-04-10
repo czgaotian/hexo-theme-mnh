@@ -2,6 +2,11 @@
 # Site Information Settings
 # ===========================================
 
+# Author info
+author:
+  name: Gao
+  link: https://github.com/meannoharm
+
 # Site creation time
 since: 2023
 
